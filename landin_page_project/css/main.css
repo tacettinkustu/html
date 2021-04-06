@@ -8,8 +8,11 @@ html{
     font-family: 'Roboto', 'Helvetica Neue', sans-serif;
 }
 
+
+/* Navbar */
+
 header{
-    height: 3rem; 
+    height: 4rem; 
 }
 
 .navbar{
@@ -32,16 +35,99 @@ li{
     display: flex;
 }
 
-.navbar ul li{
+.navbar ul li a{
     margin-left: 0.25rem;
     margin-right: 0.25rem;
+    padding: 0.25rem;
 }
 
-.navbar ul li:hover{
-    background-color: violet;
+.navbar ul li a:hover{
+    background-color: white;
     border-radius: 4px;
+    color: teal;
 }
 
 .main_header{
     color: white;
 }
+
+/* Intro */
+
+#a{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+#a img{
+    width: 25%;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+#gtc{
+    background-color: teal;
+    padding: 0.75rem;
+    border-radius: 5px;
+}
+#gtc:hover{
+    background-color: white;
+    border: 1px solid teal;
+    color: teal;
+}
+
+/* Courses */
+
+.disp{
+    display: flex;
+}
+
+#b{
+    background-color: teal;
+    padding: 1rem;
+    border-radius: 8px;
+    color: white
+}
+#courses{
+    margin-top: 2rem;
+}
+
+article:hover{
+    color : teal;
+    background-color: wheat;
+    border-radius: 5px;
+}
+
+/* Topics */
+ #c{
+    background-color: teal;
+    padding: 1rem;
+    border-radius: 8px;
+    color: white;
+ }
+ #topics{
+     display: flex;
+     flex-direction: column;
+ }
+ .langs{
+     display: flex;
+     margin:1rem;
+     position: relative;
+ }
+ .langs img{
+     margin-right: 2rem;
+     border-radius: 5px;
+ }
+ .sale{
+     background-color: red;
+     position: absolute;
+     top: 5px;
+     left: 2px;
+     padding: 0.25rem;
+     border-radius: 5px;
+ }

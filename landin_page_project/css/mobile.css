@@ -2,7 +2,20 @@
 
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .header{
-    height: 5rem;
+    height: 6rem;
+}
+
+img{
+    width: 40%;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+#courses{
+    flex-direction: column;
 }
