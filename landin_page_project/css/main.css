@@ -8,14 +8,40 @@ html{
     font-family: 'Roboto', 'Helvetica Neue', sans-serif;
 }
 
+header{
+    height: 3rem; 
+}
+
 .navbar{
     display: flex;
     align-items: center;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 0.5rem;
 }
 
 a{
     text-decoration: none;
+    color: white;
 }
 li{
-    list-style: none;
+    list-style-type: none;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.navbar ul li:hover{
+    background-color: violet;
+    border-radius: 4px;
+}
+
+.main_header{
+    color: white;
 }
